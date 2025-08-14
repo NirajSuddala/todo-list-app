@@ -1,27 +1,25 @@
+// lib/main.dart
 import 'package:flutter/material.dart';
-import 'package:hello_world/list_items.dart';
-import 'package:hello_world/todo_list_model.dart';
 import 'package:provider/provider.dart';
+import 'todo_list_model.dart';
+import 'list_items.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(create: (context)=> ListModel(),
-    child: const MainApp(),
+    ChangeNotifierProvider(
+      create: (context) => ListModel(),
+      child: const MyApp(),
     ),
-    );
+  );
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-      title: 'ToDo List.',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home:const ListItems(),
+    return const MaterialApp(
+      home: ListItems(),
     );
   }
 }
