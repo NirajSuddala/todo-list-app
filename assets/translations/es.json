@@ -1,0 +1,10 @@
+{
+  "todo": {
+    "title": "Tareas",
+    "add": "Agregar tarea",
+    "empty": "No se encontraron tareas. ¡Agrega algunas!",
+    "add_title": "Agregar una nueva tarea",
+    "name_required": "Por favor ingrese una tarea",
+    "deleted": "Tarea \"{0}\" eliminada"
+  }
+}

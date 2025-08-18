@@ -1,0 +1,10 @@
+{
+  "todo": {
+    "title": "Todo",
+    "add": "Add Todo",
+    "empty": "No todos found. Add some!",
+    "add_title": "Add a new todo",
+    "name_required": "Please enter a todo",
+    "deleted": "Todo \"{0}\" deleted"
+  }
+}
